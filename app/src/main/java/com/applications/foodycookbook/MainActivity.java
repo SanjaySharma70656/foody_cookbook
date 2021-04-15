@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.database.sqlite.*;
 import android.view.MenuItem;
 
+
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView=findViewById(R.id.bottomNavigationView);
         //
 
+        ////////////////////////////////////////////////////////////////////////////////////////////
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -38,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+        ////////////////////////////////////////////////////////////////////////////////////////////
+
+        final String base_url="https://www.themealdb.com/api/json/v1/1/";
+
 
 
 

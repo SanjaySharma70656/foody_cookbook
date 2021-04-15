@@ -40,7 +40,7 @@ public class SearchActivity extends AppCompatActivity {
 
         //Variables
         String searchTerm;
-
+        final String base_url="https://www.themealdb.com/api/json/v1/1/";
 
         //url : www.themealdb.com/api/json/v1/1/
         searchTerm=etSearch.getText().toString();
